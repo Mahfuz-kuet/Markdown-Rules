@@ -25,43 +25,45 @@ Three hyphene for horizontal rule
 
 
 ### Italic text
-_ This is an Italic text single underscore_
+_This is an Italic text single underscore_
 <br/><br/>
 
 
 ## Strong / Bold text
-__ This is a strong / bold text with two underscore __
+__This is a strong / bold text with two underscore__
 <br/><br/>
 
 ### Deleted text
-~~ This is a deleted text with tilde same as html del tag ~~
+~~This is a deleted text with tilde same as html del tag~~
 <br/><br/>
 
 ### Inline code
-' <h3>Single cotation is used for inline code</h3> '
+` <h3>Single cotation is used for inline code</h3> `
 <br/><br/>
 
 ### Multiple line code
-'''
+```
 html
 <h3>Multiple line html code</h3>
 <p>Three cotations are used. Write the language name at the top like: html</p>
-'''
+```
+<br/><br/>
 
-'''
+```
 css
 .main{
     width: 300px;
     height: 170px;
     background: tomato;
 }
-'''
+```
+<br/><br/>
 
-'''
+```
 js
 var x = document.getElementById("main").innerHtml;
 alert("main tada received in a variable");
-'''
+```
 <br/><br/>
 
 
@@ -84,16 +86,16 @@ alert("main tada received in a variable");
 
 
 ### Task list
--[x] Completed task - 01
--[x] Completed task - 02
--[] Uncompleted task - 01
--[] Uncompleted task - 02
+- [x] Completed task - 01
+- [x] Completed task - 02
+- [ ] Uncompleted task - 01
+- [ ] Uncompleted task - 02
 <br/><br/>
 
 
 ### Link
 http://sari.com.bd/ is a active link  
-'http://sari.com.bd/' is a disable link  
+`http://sari.com.bd/` is a disable link  
 [Link Text](http://sari.com.bd/)  
 or for multiple link  
 [Link Text 01][link_url_01]  
@@ -123,15 +125,11 @@ or for multiple link
 |Saudia|saudia....@gmail.com|
 |Mahmud|mahmud....@gmail.com|
 
-<!-- All links url are listed below as key value pair -->
 
+
+
+<!-- All links url are listed below as key value pair. This part is not vissible -->
 [link_url_01]: http://sari1.com.bd/
 [link_url_02]: http://sari2.com.bd/
 [link_url_03]: http://sari3.com.bd/
 [link_url_04]: http://sari4.com.bd/
-
-
-
-
-
-
