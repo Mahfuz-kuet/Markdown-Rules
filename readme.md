@@ -2,9 +2,9 @@
 <!-- Two space for new line -->
 This is a simple text  
 This is a new line
-<br/>
+<br/><br/>
 
-
+### horizontal rule
 Three hyphene for horizontal rule  
 ---
 <br/><br/>
@@ -15,16 +15,16 @@ Three hyphene for horizontal rule
 ### h3 heading
 #### h4 heading
 ##### h5 heading
-###### h6 heading  ]
+###### h6 heading
 <br/><br/>
 
 
-## Paragraph
+### Paragraph
 <p> This is a paragraph </p>
 <br/><br/>
 
 
-## Italic text
+### Italic text
 _ This is an Italic text single underscore_
 <br/><br/>
 
@@ -33,15 +33,15 @@ _ This is an Italic text single underscore_
 __ This is a strong / bold text with two underscore __
 <br/><br/>
 
-## Deleted text
+### Deleted text
 ~~ This is a deleted text with tilde same as html del tag ~~
 <br/><br/>
 
-## Inline code
-'<h3>Single cotation is used for inline code</h3>'
+### Inline code
+' <h3>Single cotation is used for inline code</h3> '
 <br/><br/>
 
-## Multiple line code
+### Multiple line code
 '''
 html
 <h3>Multiple line html code</h3>
@@ -65,7 +65,7 @@ alert("main tada received in a variable");
 <br/><br/>
 
 
-## Ordered list
+### Ordered list
 1. Item-1
 2. Item-2
     1. Item-2.1
@@ -74,7 +74,7 @@ alert("main tada received in a variable");
 <br/><br/>
 
 
-## Unordered list
+### Unordered list
 - Item-1
 - Item-2
   - Item-2.1
@@ -83,7 +83,7 @@ alert("main tada received in a variable");
 <br/><br/>
 
 
-## Task list
+### Task list
 -[x] Completed task - 01
 -[x] Completed task - 02
 -[] Uncompleted task - 01
@@ -91,7 +91,7 @@ alert("main tada received in a variable");
 <br/><br/>
 
 
-## Link
+### Link
 http://sari.com.bd/ is a active link  
 'http://sari.com.bd/' is a disable link  
 [Link Text](http://sari.com.bd/)  
@@ -103,11 +103,11 @@ or for multiple link
 <br/><br/>
 
 
-## Image
+### Image
 ![Image Alt Text Here](me.jpg)
 <br/><br/>
 
-## Emoji
+### Emoji
 - Go to https://emojipedia.org/  
 - Search
 - Copy
@@ -116,7 +116,7 @@ or for multiple link
 <br/><br/>
 
 
-## Table
+### Table
 |Name|Email|
 |---|---|
 |Mahfuz|mahfuz....@gmail.com|
