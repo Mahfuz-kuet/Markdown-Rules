@@ -5,7 +5,7 @@ This is a new line
 <br/><br/>
 
 ### horizontal rule
-Three hyphene for horizontal rule  
+Three hyphene for horizontal rule
 ---
 <br/><br/>
 
@@ -42,15 +42,13 @@ __This is a strong / bold text with two underscore__
 <br/><br/>
 
 ### Multiple line code
-```
-html
+```html
 <h3>Multiple line html code</h3>
 <p>Three cotations are used. Write the language name at the top like: html</p>
 ```
 <br/><br/>
 
-```
-css
+```css
 .main{
     width: 300px;
     height: 170px;
@@ -59,8 +57,7 @@ css
 ```
 <br/><br/>
 
-```
-js
+```js
 var x = document.getElementById("main").innerHtml;
 alert("main tada received in a variable");
 ```
@@ -125,10 +122,8 @@ or for multiple link
 |Saudia|saudia....@gmail.com|
 |Mahmud|mahmud....@gmail.com|
 
+<!-- All links url are listed below as key value pair. Not for show -->
 
-
-
-<!-- All links url are listed below as key value pair. This part is not vissible -->
 [link_url_01]: http://sari1.com.bd/
 [link_url_02]: http://sari2.com.bd/
 [link_url_03]: http://sari3.com.bd/
