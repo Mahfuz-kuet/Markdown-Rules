@@ -42,12 +42,14 @@ __This is a strong / bold text with two underscore__
 <br/><br/>
 
 ### Multiple line code
+#### HTML
 ```html
 <h3>Multiple line html code</h3>
 <p>Three cotations are used. Write the language name at the top like: html</p>
 ```
-<br/><br/>
+<br/>
 
+#### CSS
 ```css
 .main{
     width: 300px;
@@ -55,8 +57,9 @@ __This is a strong / bold text with two underscore__
     background: tomato;
 }
 ```
-<br/><br/>
+<br/>
 
+#### JAVASCRIPT
 ```js
 var x = document.getElementById("main").innerHtml;
 alert("main tada received in a variable");
